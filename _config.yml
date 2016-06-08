@@ -17,3 +17,10 @@ url: "http://bowenstreetbookclub.com" # the base hostname & protocol for your si
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
+defaults:
+  - 
+    scope: 
+      path: "books"
+    values: 
+      author: ""
+      image: ""
