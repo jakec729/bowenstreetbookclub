@@ -1,3 +1,4 @@
+---
 title: The Bowen Street Book Club
 timezone: UTC
 collections:
@@ -10,6 +11,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: books
+  values:
+    author: ''
+    image: ''
 email: jakecooperdesign@gmail.com
 description: No meetings. No dues. Just One book at a time. A little bit each week,
   with recaps and insights in your inbox.
@@ -18,10 +25,3 @@ url: http://bowenstreetbookclub.com
 twitter_username: jekyllrb
 github_username: jekyll
 markdown: kramdown
-defaults:
-  - 
-    scope: 
-      path: "books"
-    values: 
-      author: ""
-      image: ""
